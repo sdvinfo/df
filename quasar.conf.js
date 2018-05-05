@@ -113,9 +113,12 @@ module.exports = function(ctx) {
       },
       packager: {
         // OS X / Mac App Store
-        // appBundleId: '',
-        // appCategoryType: '',
+        appBundleId: 'group.eng.df',
+        appCategoryType: 'public.app-category.utilities',
         // osxSign: '',
+        osxSign: true,
+        appCopyright: 'MIT'
+        // appVersion: '1.0.0' - defaults to appversion in package.json
         // protocol: 'myapp://path',
         // Window only
         // win32metadata: { ... }
