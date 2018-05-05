@@ -22,7 +22,7 @@
         </q-toolbar-title>
         <!-- <div class="df-logo" @click="openURL('https://df.eng.group')"> -->
         <div class="df-logo" @click="openURL('https://eng.group')">
-          <img alt="DF logo" class="avatar" src="assets/df-logo.svg">
+          <img alt="DF logo" class="avatar" src="~assets/df-logo.svg">
         </div>
       </q-toolbar>
     </q-layout-header>
@@ -38,12 +38,12 @@
       >
         <q-list-header>Actions</q-list-header>
         <q-item @click.native="openPage('/find-files')">
-          <q-item-side icon="folder" />
-          <q-item-main label="Files" sublabel="find duplicate files" />
+          <q-item-side icon="search" />
+          <q-item-main label="Search" sublabel="find duplicate files" />
         </q-item>
         <q-item @click.native="openPage('/results')">
           <q-item-side icon="folder" />
-          <q-item-main label="Results" sublabel="last founded duplicate files" />
+          <q-item-main label="Results" sublabel="process founded duplicates" />
         </q-item>
       </q-list>
     </q-layout-drawer>

@@ -3,9 +3,9 @@ export default [
     path: '/',
     component: () => import('layouts/default'),
     children: [
-      { path: '', component: () => import('pages/index') },
-      { path: 'find-files', component: () => import('pages/index') },
-      { path: 'results', component: () => import('pages/ResultsPage') }
+      { path: '', component: () => import('pages/PageFindFiles') },
+      { path: 'find-files', component: () => import('pages/PageFindFiles') },
+      { path: 'results', component: () => import('pages/PageResults') }
     ]
   },
 

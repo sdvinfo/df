@@ -2,7 +2,7 @@
   "name": "df",
   "version": "1.0.0",
   "description": "DF is an application for processing duplicate files in your system",
-  "productName": "DF - Duplicate Files",
+  "productName": "DF",
   "cordovaId": "org.cordova.quasar.app",
   "author": "Dmitriy Serezhin <sdvinfo@gmail.com>",
   "private": true,
